@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aiscare.id/sitemap.xml
+
+# Disallow sensitive paths (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
