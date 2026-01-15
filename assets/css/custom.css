@@ -1,0 +1,115 @@
+/* Custom Styles for AISCARE */
+
+/* Client Logo Cards */
+.client-logo-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-logo-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.client-logo-card img {
+  max-height: 120px;
+  width: auto;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.client-logo-card:hover img {
+  transform: scale(1.05);
+}
+
+/* CTA Box in Clients Section */
+.cta-box {
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+  border-radius: 20px;
+  padding: 50px 40px;
+  color: #fff;
+  box-shadow: 0 10px 40px rgba(14, 165, 233, 0.3);
+}
+
+.cta-box h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.cta-box p {
+  font-size: 16px;
+  opacity: 0.95;
+  color: #fff;
+}
+
+.cta-box .btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  background: #fff;
+  color: #0ea5e9;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.cta-box .btn:hover {
+  background: #f0f9ff;
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+}
+
+.cta-box .btn i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+/* Stats Section Styling */
+#stats {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #f8fafc 0%, #fff 100%);
+}
+
+#stats .section-title h2 {
+  color: #1e293b;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#stats .section-title p {
+  color: #64748b;
+  font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .client-logo-card {
+    padding: 20px;
+  }
+  
+  .client-logo-card img {
+    max-height: 80px;
+  }
+  
+  .cta-box {
+    padding: 40px 30px;
+  }
+  
+  .cta-box h3 {
+    font-size: 24px;
+  }
+  
+  .cta-box .btn {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+}
